@@ -69,6 +69,7 @@ body{
 .section3 .col-md-4 img{
 	margin: 15px 0 0;
 	width: 100%;
+	display: block;
 }
 .section3 .col-md-4{
 	position: relative;
