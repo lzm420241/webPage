@@ -119,6 +119,14 @@ footer div dl dt{
 	font-weight: bold;
 }
 
+footer div dl dt a,footer div dl dd a{
+	color: white;
+	text-decoration: none;
+}
+footer div dl dt a:hover,footer div dl dd a:hover{
+	color: white;
+	text-decoration: none;
+}
 footer .copyright{
 	padding: 0;
 	padding: 0;
