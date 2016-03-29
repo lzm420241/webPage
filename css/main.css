@@ -1,5 +1,6 @@
 body{
 	overflow-x: hidden;
+	font-family: microsoft yahei;
 }
 
 .navbar{
@@ -44,7 +45,7 @@ body{
  	text-align: center;
 }
 .section2,.section3,.section4{
-	margin: 100px 10%;	
+	margin: 70px 10%;	
 }
 
 .section2 .col-md-4 img{
@@ -83,6 +84,24 @@ body{
 	font-size: 36px;
 	color: white;
 }	
+
+.title{
+
+}
+.title span{
+	display: block;
+	line-height: 40px;
+	font-size: 33px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.title h3{
+	display: block;
+	line-height: 20px;
+	font-size: 16px;
+	text-align: center;
+}
 
 .section4 .row .col-md-3 img{
 	width: 100%;
