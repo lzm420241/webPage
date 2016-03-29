@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden;
+}
+
 .navbar{
 	position: fixed;
 	top: 0;
@@ -38,4 +42,52 @@
  	list-style-type: none;
  	text-align: center;
 }
+.section2,.section3,.section4{
+	margin: 100px 10%;	
+}
 
+.section2 .col-md-4 img{
+	width: 100%;
+}
+    
+.section2 .col-md-4 a{
+	display: block;
+	width: 100%;
+	line-height: 114px;
+	font-size: 36px;
+	background: #ff5555;	
+	text-align: center;
+	height: 114px;
+}
+.section3 .col-xs-6 img{
+	margin: 15px 8px 0;
+	width: 100%;
+}
+.section3 .col-md-4 img{
+	margin: 15px 8px 0;
+	width: 100%;
+}
+.section3 .col-md-4{
+	position: relative;
+}
+.section3 .col-md-4 a strong{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	line-height: 100%;
+	font-size: 36px;
+	color: white;
+}	
+
+.section4 .row .col-md-3 img{
+	width: 100%;
+}
+.section4 .row .col-md-3{
+	padding: 0;
+	border: 1px solid #d2d2d2;
+}
+.section4 .row .col-md-3 a,span{
+	display: block;
+	padding: 0 10px;
+}
