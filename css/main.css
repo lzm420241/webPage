@@ -59,6 +59,8 @@ body{
 	background: #ff5555;	
 	text-align: center;
 	height: 114px;
+	color: white;
+	text-decoration: none;
 }
 .section3 .col-xs-6 img{
 	margin: 15px 8px 0;
