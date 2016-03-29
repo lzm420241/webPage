@@ -67,7 +67,7 @@ body{
 	width: 100%;
 }
 .section3 .col-md-4 img{
-	margin: 15px 8px 0;
+	margin: 15px 0 0;
 	width: 100%;
 }
 .section3 .col-md-4{
@@ -101,7 +101,7 @@ footer{
 footer div{
     background: #a99877;
     overflow: hidden;
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 footer div dl{
