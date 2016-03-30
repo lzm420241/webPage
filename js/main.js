@@ -12,8 +12,7 @@
 $(function () {
   $('[data-toggle="popover"]').popover();
 
-  // $('[data-toggle="popover"]').on('show.bs.popover',function(){
-  // 	$(".popover-content").append('<img src="images/qr.jpg">');
-  // 	alert("hello");
-  // });
+  $(".qr-pic").click(function(){
+  	 $(".popover").toggle();
+  });	
 })
