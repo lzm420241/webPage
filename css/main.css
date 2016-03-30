@@ -9,7 +9,18 @@ body{
 	width: 100%;
     z-index:1;
 }
-
+.show-qr{
+	position: fixed;
+	bottom: 100px;
+	right: -10px;
+	z-index: 1;
+}
+.qr{
+	position: fixed;
+	bottom: 100px;
+	right: -10px;
+	z-index: 1;
+}
 .header-image{
 	width: 100%;
 }
@@ -107,12 +118,26 @@ body{
 	width: 100%;
 }
 .section4 .row .col-md-3{
-	padding: 0;
-	border: 1px solid #d2d2d2;
+	padding: 10px 5px;
+	
 }
-.section4 .row .col-md-3 a,span{
+.section4 .row .col-md-3 div{
+	border: 1px solid #d2d2d2;
+
+}
+.section4 .row .col-md-3 a{
 	display: block;
 	padding: 0 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.section4 .row .col-md-3 a:hover{
+	color: #20933d;
+	text-decoration: none;
+}
+.section4 .row .col-md-3 span{
+	display: block;
+	padding: 5px 10px;
 }
 footer{
 	margin: 0 auto;
