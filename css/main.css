@@ -9,11 +9,18 @@ body{
 	width: 100%;
     z-index:1;
 }
-.show-qr{
+.btn{
+	background: white;
 	position: fixed;
 	bottom: 100px;
-	right: 0px;
+	right: 10px;
 	z-index: 1;
+}
+.glyphicon{
+	font-size: 16px;
+}
+.show-qr{
+	
 }
 .qr{
 	position: fixed;
