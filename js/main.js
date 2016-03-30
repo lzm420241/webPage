@@ -1,8 +1,10 @@
 $(function(){
-	$("show-qr").click(function(){
-		
+	$(".show-qr").click(function(){
+		$(".qr").animate({right:"10px"});
+		$(this).hide();
 	});
-	$("qr").click(function(){
-
+	$(".qr").click(function(){
+		$(this).animate({right:"-100px"});
+		$(".show-qr").show();
 	});
 })

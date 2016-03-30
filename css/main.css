@@ -12,13 +12,13 @@ body{
 .show-qr{
 	position: fixed;
 	bottom: 100px;
-	right: -10px;
+	right: 0px;
 	z-index: 1;
 }
 .qr{
 	position: fixed;
 	bottom: 100px;
-	right: -10px;
+	right: -100px;
 	z-index: 1;
 }
 .header-image{
