@@ -14,7 +14,7 @@ $(function () {
   $(".qr-pic").click(function(){
   	 $(".popover").toggle();
   });
-  
+
   if(document.body.scrollTop == 0){
   		$(".back-top").hide();
   	}else{
@@ -26,8 +26,5 @@ $(function () {
   	}else{
   		$(".back-top").show();
   	}
-  });	
-  $(".back-top").click(function(){
-    $(this).hide();
   });
 })
